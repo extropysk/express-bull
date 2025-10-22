@@ -1,20 +1,20 @@
 {
-  "name": "@extropysk/express-redis",
-  "version": "0.0.3",
+  "name": "@extropysk/express-bull",
+  "version": "1.0.0",
   "private": false,
   "publishConfig": {
     "access": "public"
   },
   "license": "MIT",
   "type": "module",
-  "main": "./dist/express-redis.umd.cjs",
-  "module": "./dist/express-redis.js",
+  "main": "./dist/express-bull.umd.cjs",
+  "module": "./dist/express-bull.js",
   "types": "./dist/index.d.ts",
   "exports": {
     ".": {
       "types": "./dist/index.d.ts",
-      "import": "./dist/express-redis.js",
-      "require": "./dist/express-redis.umd.cjs"
+      "import": "./dist/express-bull.js",
+      "require": "./dist/express-bull.umd.cjs"
     }
   },
   "scripts": {

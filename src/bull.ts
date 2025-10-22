@@ -22,7 +22,7 @@ class BullQueue<DataType extends Data> extends BaseQueue<DataType> {
   }
 }
 
-export class BullProvider extends QueueProvider {
+export class BullQueueProvider extends QueueProvider {
   constructor(private connection: ConnectionOptions) {
     super()
   }
