@@ -22,7 +22,7 @@ export default defineConfig({
       name: formattedName,
     },
     rollupOptions: {
-      external: ['bullmq'],
+      external: ['bullmq', 'ioredis'],
     },
   },
 })
